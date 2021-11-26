@@ -78,7 +78,7 @@ function draw(){
     platform.display();
     //log6.display();
     slingshot.display();
-    console.log(bird.body.speed);    
+    //console.log(bird.body.speed);    
 }
 
 function mouseDragged(){
@@ -116,5 +116,5 @@ async function getBackgroundImg(){
     }
 
     backgroundImg = loadImage(bg);
-    console.log(backgroundImg);
+    //console.log(backgroundImg);
 }
